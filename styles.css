@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: "Arial", 'Times New Roman';
+    line-height: 1.6;
+} 
+
+h1 {
+    font-size: 36px;
+}
+
+table, th, td {
+    border: 1px solid gray; 
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+td, th {
+    height: 30px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.table-container {
+    float: right;
+    margin-right: 100px;
+}
+
+.content {
+    border-bottom: 1px solid #eaecef;
+    margin: 15px;
+}
+
+.summary p {
+    font-style: italic;
+}
